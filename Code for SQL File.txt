@@ -1,0 +1,26 @@
+//Code for SQL File
+
+CREATE DATABASE studentdb;
+
+USE studentdb;
+
+CREATE TABLE students (
+    name VARCHAR(100),
+    prn INT PRIMARY KEY,
+    branch VARCHAR(50),
+    batch VARCHAR(20),
+    cgpa FLOAT
+);
+
+
+-- Use the correct database
+USE studentdb;
+
+-- Insert sample student records
+INSERT INTO students (name, prn, branch, batch, cgpa) VALUES 
+('Ameya Joshi', 101, 'Computer', '2022', 8.5),
+('Asho Verma', 102, 'IT', '2022', 7.9),
+('Eric Fernandes', 103, 'Mechanical', '2022', 7.3),
+('Ron Dsouza', 104, 'Electrical', '2022', 8.0),
+('Priya Shah', 105, 'Civil', '2022', 8.8),
+('Sneha Iyer', 106, 'Electronics', '2022', 9.0);

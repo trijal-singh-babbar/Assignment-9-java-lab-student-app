@@ -1,5 +1,7 @@
 //Main.java
-
+// Trijal singh babbar
+//Aiml B3
+//23070126137
 import java.util.*;
 
 public class Main {
